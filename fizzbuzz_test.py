@@ -13,6 +13,14 @@ class TestFizzBuzz(object):
         fizzbuzz = FizzBuzz()
         assert fizzbuzz.play(3) == 'buzz'
 
+    def test_returns_buzz_when_6(self):
+        fizzbuzz = FizzBuzz()
+        assert fizzbuzz.play(6) == 'buzz'
+
     def test_returns_fizzbuzz_when_15(self):
         fizzbuzz = FizzBuzz()
         assert fizzbuzz.play(15) == 'fizzbuzz'
+
+    def test_returns_num_when_4(self):
+        fizzbuzz = FizzBuzz()
+        assert fizzbuzz.play(4) == 4

@@ -4,5 +4,7 @@ class FizzBuzz():
             return 'fizzbuzz'
         elif num % 5 == 0:
             return 'fizz'
-        else:
+        elif num % 3 == 0:
             return 'buzz'
+        else:
+            return num
