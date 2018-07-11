@@ -1,3 +1,4 @@
 [
-  "fizzbuzz_test.py::TestFizzBuzz::()::test_returns_fizz_when_5"
+  "fizzbuzz_test.py::TestFizzBuzz::()::test_returns_fizz_when_5",
+  "fizzbuzz_test.py::TestFizzBuzz::()::test_returns_buzz_when_3"
 ]

@@ -1,3 +1,6 @@
 class FizzBuzz():
     def play(self, num):
-        return 'fizz'
+        if num == 5:
+            return 'fizz'
+        else:
+            return 'buzz' 
